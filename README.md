@@ -4,6 +4,7 @@
 https://github.com/SPehsar/Portfolio/blob/master/README.pdf
 # •	I started by creating a boilerplate and repository on GitHub to kick-start.
 # •	Then I sectionized the one page that I was planning to use according to the wireframe that can be seen under this project folder and PDF file. 
+(https://github.com/SPehsar/Portfolio/blob/master/PotFolio_Wire_Frame.png)
 
 # •	Next, I populate each section with proper HTML tags.
 # •	In addition, some images were created to be used.  I also created animated GIF files that show some of the projects in functionalities.
@@ -17,6 +18,7 @@ https://github.com/SPehsar/Portfolio/blob/master/README.pdf
 # •	I coded the JavaScript file accordingly. 
 # •	After being satisfied with the result, I decided to have a second page for the contact form and address to my resume.
 # •	The wireframe for that page can be seen in the project folder and PDF file.
+(https://github.com/SPehsar/Portfolio/blob/master/Contact_Form__Wire_Frame.png)
 
 # •	I linked this page to the previous page.
 # •	I also made sure that email could be sent using this page.

@@ -1,7 +1,7 @@
 # This is to give some information about activities that I did during creating this Portfolio. The following is the list of those activities.
 
-# You can see a PDF version of this README file under the projectfolder.
-
+# You can see a PDF version of this README file under the project folder: 
+https://github.com/SPehsar/Portfolio/blob/master/README.pdf
 # •	I started by creating a boilerplate and repository on GitHub to kick-start.
 # •	Then I sectionized the one page that I was planning to use according to the wireframe that can be seen under this project folder and PDF file. 
 

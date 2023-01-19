@@ -27,7 +27,7 @@ https://github.com/SPehsar/Portfolio/blob/master/README.pdf
 
 # I made sure that all these pages were responsive accordingly.
 
-# To view this page, you can go to: https://cyrus-portfolio.netlify.app/index.html#aboutMe
+# To view this page, you can go to: https://cyrus-portfolio.netlify.app/index.html
 
 # To use this code, you need to get your needed codes for email connections. In addition, you need to get the QR code for your resume.  
 # Due to #privacy concerns, I have removed anything that is private.

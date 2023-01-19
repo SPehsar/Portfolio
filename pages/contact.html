@@ -3,7 +3,16 @@
   <head>
     <link rel="stylesheet" href="../src/style.css" />
     <link />
-    <title>Contact Me</title>
+    <title>Cyrus</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../images/cyla-logo.png" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    
     <meta charset="UTF-8" />
 
     <link
@@ -22,53 +31,72 @@
         emailjs.init("Faoh4u_ySPUwBMNrt");
       })();
     </script>
+
+    <script src="alert/dist/sweetalert-dev.js"></script>
+    <link rel="stylesheet" href="alert/dist/sweetalert.css">
+    
   </head>
   <body>
-    <div class="container border mt-3 bg-light">
-      <div class="row">
-        <div class="col-md-6 p-5 bg-primary text-white">
-          <h1>Hi there!</h1>
-          <br />
-          <h4>
-            Please provide me with your name, email address, and a short
-            message, then I can reach out to you.<br />
-            Thanks a bunch!
-          </h4>
+    </br>
+    <div class="container border mt-5 bg-white">
+      <section>
+        <div class="row">
+          <div class="col-md-6 p-5 bg-warning text-dark" id="mainFrameOne">
+            <h1>Hi there!</h1>
+            <br />
+            <h4>
+              Thank you for your interest in learning more about me! Please provide me with your name, email address, and a short
+              message, then access to my resume will be provided promptly.<br /><br />
+              Thanks a bunch!
+            </h4>
+          </div>
+
+          <div class="col-md-6 p-5 bg-warning text-dark" id="mainFrameTwo" style="display:none;">
+            <br />
+            <center><h4>
+              Thank you for your interest.<br /><br />
+              <a href=""
+              "><img
+              class="info_image"
+              src="../images/info.png"
+              alt="information"
+            /></a><br /><br />
+              Scan code or click on it for my resume!
+            </h4></center>
+          </div>
+          <div class="col-md-6 border-left py-3">
+            <h1>Contact form</h1>
+            <div class="form-group">
+              <h5 for="name">Name</h5>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="email">Email</h5>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <h5 for="message">Message</h5>
+              <textarea class="form-control" id="message" rows="3" placeholder="A short message with your contact number."></textarea>
+            </div>
+            <button class="btn btn-warning" onclick="sendMail()">Submit</button>
+          </div>
         </div>
-        <div class="col-md-6 border-left py-3">
-          <h1>Contact form</h1>
-          <div class="form-group">
-            <h5 for="name">Name</h5>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="Enter name"
-            />
-          </div>
-          <div class="form-group">
-            <h5 for="email">Email</h5>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="Enter email"
-            />
-          </div>
-          <div class="form-group">
-            <h5 for="message">Message</h5>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
-        </div>
-      </div>
-    </div>
-    <footer>
+      </section>
+    </div></br>
+    <footer 1 id="nav-list1">
       <center>
       <ul>
-        <li><a href="../index.html#aboutMe">About me</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="https://github.com/SPehsar" target="_blank">GitHub</a></li>
+        <li><a href="../index.html#aboutMe" class="a-warning" style="color:black; text-decoration: none">Back to Cyrus Portfolio</a></li>
       </ul>
       </center>
     </footer>

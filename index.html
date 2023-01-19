@@ -5,38 +5,69 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" href="images/javascript-games-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/cyla-logo.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
     <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
-    <title>CyLa</title>
+    <title>Cyrus</title>
     <meta charset="UTF-8" />
 
+
+      <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("Faoh4u_ySPUwBMNrt");
+      })();
+    </script>
+
   </head>
+
   <body>
     <nav>
-
-      <ul class="nav-bar" id="nav-list">
-        <li><a href="./index.html#aboutMe">CyLa</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
+      <img
+        class="logo"
+        src="images/cyla-logo.png"
+        alt="Cy la Logo"
+      ></img>
+      <ul class="nav-bar">
+        <li><a href="./index.html#aboutMe">Cyrus</a></li>
+        <li><a href="https://github.com/SPehsar" target="_blank">GitHub</a></li>
+        <li><a href="./index.html#contactMe">Contact</a></li>
       </ul>
  
     </nav>
-    <div class="hero">
-      <div class="hero-info">
-   
+    <div class="myClass">
+      <div class="my-info">
+          <h1 id="myName">Cyrus is Minimalist</h1>
+          <span>  He is a Front-End and Back-End Web Developer professional with a passion to learn by helping others voluntarily, a life-long learner!</span>
+          <div class="styled-break"></div>
+          <a href="pages/contact.html" target="_blank"><div class="button"><h3> Hire Me!</h3></div>
+      </div></a>
       <div>
-
+        <img
+          class="my-image"
+          src="images/working-illustration.gif"
+          alt="a man working"
+        />
       </div>
     </div>
     <section>
       <div class="about-me"  id="aboutMe">
- 
+        <img
+          class="myPicture"
+          src="images/cyla-picture.png"
+          alt="CyLa picture"
+        />
       </div>
       <div class="info">
-          
+          <h2><a name="about-me">About Cyrus</a></h2>
+          <span>Cyrus is a people-centric professional who has strong analytical and problem-solving skills.  He has MCA level training, with various certifications and college degrees.   He is re-candling his passion for software engineering and is ready to spin up. </span>
       </div>
     </section>
     <section>
@@ -44,26 +75,71 @@
 
     
     <section>
-      <div>
-        <h2>Contact CyLa</h2>
+      <div id="contactMe">
+        <h2>Contact Cyrus</h2>
+          <div class="input-group">            
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" id="name" placeholder="Enter name"></input>
+          </div></br>
+        <!-- --- -->
+          <div class="input-group">
+            <i class="fa fa-envelope icon"></i>
+            <input class="input-field" type="email" id="email" placeholder="Enter email" />
+          </div></br>
+        <!-- --- -->
+          <div class="input-group">
+            <textarea  class="input-field" id="message" rows="8" cols="36" placeholder="Enter a short message"></textarea>
+          </div></br>
         
+
+        <button class="button" onclick="sendMail()">Submit</button>
       </div>
     </section>
 
 
-
-    <section class="sub-section-alternative" id="projects">
+    <section class="subSectionAlternative" id="projects">
         <h2>PROJECTS</h2>
-        <div class="project-container" >
-
+        <div class="projectContainer" >
+            <div class="projectCard" id="myCardDIV1">
+                <img class="projectImage" src="images/project1.jpg" alt="Project One Image" height="143"/>
+                <h3>Expense Tracker</h3>
+                <p class="subtext1" style="text-align:left; color: rgb(48, 10, 137); padding: 10px;" ><span>My "Expense Tracker" online app allows you to log your expenditure and categorize your expenses to figure out the amount you spent or gained. It can provide information for certain periods and provide you with the net balance, and the results appear in a tabular form.(Watch demo bellow)</span></p>
+                <hr/>
+                <p class="subtextLink">Open New Tab: <a class="project-link" href="https://github.com/SPehsar/ExpenseTracker" target="_blank">GitHub</a> or <a title="FYI: Render.com normally loads slowly" class="project-link" href="https://expense-tracker-30.onrender.com" target="_blank"> Website</a></p>
+            </div>
+            <div class="projectCard" id="myCardDIV2">
+              <img class="projectImage" src="images/project2.jpg" alt="Project two Image"/>
+              <h3>Captain's Log</h3>
+              <p class="subtext2"  style="text-align:left; color: rgb(48, 10, 137); padding: 10px;" ><span>Every great captain, whether on the water or in the skies / space, keeps a daily log.  The captain's log, also called a ship's log, is a record-keeping booklet. The Captain's Log App contains records of important events that happen on a ship. It is a log entry record-keeping.</span></p>
+              <hr/>
+              <p class="subtextLink">Open New Tab: <a class="project-link" href="https://github.com/SPehsar/-SPehsar-Star_Trek_Captain_Log" target="_blank">GitHub</a> or <a  title="FYI: Render.com normally loads slowly" class="project-link" href="https://star-trek-captain-log-10.onrender.com" target="_blank">Website</a></p>
+            </div>
+            <div class="projectCard" id="myCardDIV3">
+              <img class="projectImage" src="images/project3.jpg" alt="Project three Image" height="145"/>
+              <h3>Ping Pong</h3>
+              <p class="subtext3" style="text-align:left; color: rgb(48, 10, 137); padding: 10px;" ><span>Reading instructions first is a good point to start this game. Players need to provide the required information. If name input is entered incorrectly, the system picks a name for them when they start playing. They can set a maximum desired score, unless they want to play the game till they exit. </span></p>
+              <hr/>
+              <p class="subtextLink">Open New Tab: <a class="project-link" href="https://github.com/SPehsar/Ping_Pong_Project" target="_blank">GitHub</a> or <a class="project-link" href="https://cyruspingpong.netlify.app/" target="_blank"> Website</a></p>
+            </div>
+            <div class="projectCard" id="myCardDIV4">
+              <img class="projectImage" src="images/Project4.jpg" alt="Project four Image" height="145"/>
+              <h3>Jeopardy</h3>
+              <p class="subtext4" style="text-align:left; color: rgb(48, 10, 137); padding: 10px;" ><span>Never played Jeopardy? Try this app. Using third party API, it gets an answer, and the player needs to guess the related question.  Using the same API, the actual question will be revealed.  Players can manually add or deduct their scores. There is a daily limitation while using the API.</span></p>
+              <hr/>
+              <p class="subtextLink" >Open New Tab: <a class="project-link" href="https://github.com/SPehsar/SW_Eng-W11_Projects/tree/master/Project-2/Jeopardy" target="_blank"> GitHub</a> or <a class="project-link" href="https://idyllic-sunburst-5ee2e5.netlify.app" target="_blank">Website</a></p>
+            </div>
         </div>
     </section>
 
 
     <footer>
       <ul>
-
+        <li><a href="./index.html#aboutMe">Cyrus</a></li>
+        <li><a href="./index.html#contactMe">Contact</a></li>
+        <li><a href="https://github.com/SPehsar" target="_blank">GitHub</a></li>
+      </ul>
     </footer>
+
     <script src="src/index.js"></script>
   </body>
 </html>

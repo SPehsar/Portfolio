@@ -5,8 +5,8 @@ function sendMail() {
     message: document.getElementById("message").value,
   };
 
-  const serviceID = "service_m6nbfk2";
-  const templateID = "template_hv91w0j";
+  const serviceID = "";
+  const templateID = "";
 
     emailjs.send(serviceID, templateID, params)//.then(function(res){
     .then(res=>{
@@ -15,7 +15,8 @@ function sendMail() {
         document.getElementById("message").value = "";
         console.log(res);
       alert("Thank You! Your message was sent successfully!!" + res.status)
-
+      document.getElementById("mainFrameOne").style.display="none"; 
+      document.getElementById("mainFrameTwo").style.display="block";
     })
     .catch(err=>console.log(err));
 

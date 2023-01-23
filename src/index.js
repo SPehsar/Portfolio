@@ -17,6 +17,7 @@ function sendMail() {
       alert("Thank You! Your message was sent successfully!!" + res.status)
       document.getElementById("mainFrameOne").style.display="none"; 
       document.getElementById("mainFrameTwo").style.display="block";
+
     })
     .catch(err=>console.log(err));
 
